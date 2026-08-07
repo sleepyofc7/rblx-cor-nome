@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Roblox Username Color Predictor</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <main class="container">
+
+        <div class="card">
+
+            <div class="logo">
+
+                <h1>🎨 Roblox Username Color</h1>
+
+                <p>
+                    Predict the chat color of any Roblox username.
+                </p>
+
+            </div>
+
+            <div class="search">
+
+                <input
+                    id="username"
+                    type="text"
+                    maxlength="20"
+                    placeholder="Enter a Roblox username...">
+
+                <button id="predictButton">
+
+                    Predict Color
+
+                </button>
+
+            </div>
+
+            <div
+                class="result hidden"
+                id="result">
+
+                <div
+                    class="colorPreview"
+                    id="colorPreview">
+                </div>
+
+                <div class="info">
+
+                    <h2 id="colorName">
+
+                        Unknown
+
+                    </h2>
+
+                    <p>
+
+                        RGB
+
+                    </p>
+
+                    <span id="rgb">
+
+                        -
+
+                    </span>
+
+                    <p>
+
+                        HEX
+
+                    </p>
+
+                    <span id="hex">
+
+                        -
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
