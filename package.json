@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "author": "RyloRiz",
+  "author": "sleepy",
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
